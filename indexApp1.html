@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="shortcut icon" href="Instagram.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #833AB4;
+            background: linear-gradient(to right, #833AB4, #FD1D1D, #FCB045);
+            color: white;
+            height: 50px;
+            margin: 1px;
+            text-align: center;
+            font-size: 40px;
+            border-radius: 20px;
+            line-height: 50px;
+        }
+        aside {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .A {
+            background-color: rgb(239, 244, 247);
+            border-radius: 20px;
+            width: 30%;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+        article {
+            background-color: #f3f3f3;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .publicaciones {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 20px;
+        }
+        .S {
+            background-color: #ccc;
+            padding: 50px;
+            width: 45%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Instagram
+    </header>
+    <aside>
+        <h1>
+            Inicio
+        </h1>
+        <h1 class="A">
+            Buscar...
+        </h1>
+    </aside>
+    <main>
+        <nav>
+            <article>
+                Mi Perfil
+            </article>
+            <article>
+                Explorar
+            </article>
+            <article>
+                Notificaciones
+            </article>
+        </nav>
+        <nav class="publicaciones">
+            <section class="S">
+                Publicación 3
+            </section>
+            <section class="S">
+                Publicación 2
+            </section>
+            <section class="S">
+                Publicación 1
+            </section>
+        </nav>
+    </main>
+</body>
+</html>

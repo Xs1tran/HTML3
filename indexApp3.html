@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawlhalla</title>
+    <link rel="shortcut icon" href="Brawlhalla.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1b1b1b;
+            color: white;
+        }
+        header {
+            background-color: #0e76a8;
+            text-align: center;
+            padding: 20px;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            font-size: 20px;
+            text-decoration: underline;
+        }        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .section {
+            background-color: #2c2c2c;
+            border-radius: 10px;
+            padding: 20px;
+            width: 45%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Brawlhalla
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Personajes</a>
+        <a href="#">Torneos</a>
+        <a href="#">Noticias</a>
+        <a href="#">Tienda</a>
+    </nav>
+    <main>
+        <nav class="content">
+            <div class="section">
+                <h2>Últimas Noticias</h2>
+                <p>¡Nuevo evento de temporada ya disponible!</p>
+            </nav>
+            <nav class="section">
+                <h2>Próximos Torneos</h2>
+                <p>¡Inscripciones abiertas para el Campeonato de Verano!</p>
+            </nav>
+        </nav>
+    </main>
+</body>
+</html>
